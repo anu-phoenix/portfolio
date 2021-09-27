@@ -1,87 +1,188 @@
-.topnav {
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.header{
     position: absolute;
-    width: 1280px; height: 50px;
+    width: 1265px; height: 50px;
     left: 0px; top: 0px;
     background: #BFA2DB;
-  }
-
+    color: #BFA2DB;
+}
   .topnav :hover {
     background-color: #F0D9FF;
     color: black;
   }
 
   .topnav a{
-    position: absolute;
-    width: 110px;
-    height: 34px;
-    left: 730px;
-    top: 8px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 35px;
-    
-    color: #000000;
+    float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
   }
 
-  .topnav b{
-    position: absolute;
-    width: 145px;
-    height: 34px;
-    left: 850px;
-    top: 8px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 35px;
-    
-    color: #000000;
-  }
-
-  .topnav c{
-    position: absolute;
-    width: 125px;
-    height: 34px;
-    left: 1010px;
-    top: 8px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 35px;
-    
-    color: #000000;
-  }
-
-  .topnav d{
-    position: absolute;
-    width: 120px;
-    height: 34px;
-    left: 1150px;
-    top: 8px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 35px;
-    
-    color: #000000;
-    
-  }
 
 .toppic{
     position: absolute;
-width: 64px;
-height: 68px;
-left: 6px;
-top: 2px;
+width: 55px;
+height: 50px;
+left: 15px;
+top: 0px;
+background: url(me.jpg);
+border-radius: 360px;
+}
 
-background: url(me.jpg), #000000;
+.top{
+    all: inherit;
+}
+
+hr{
+    position: absolute;
+width: 1255px;
+height: 0px;
+left: 0px;
+top: 40px;
+
+border: 5px solid #7F7C82;
+}
+.bodytop
+{
+    position: absolute;
+width: 1100px;
+height: 428px;
+left: 90.5px;
+top: 100px;
+border-radius: 50px;
+background: #F0D9FF;
+border: 6px solid #F0D9FF;
+box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.intro1
+{
+  position: absolute;
+  width: 1085px;
+  height: 320px;
+  left: 0px;
+  margin: 0px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #BFA2DB;
+  box-sizing: border-box;
+  background: radial-gradient(110% 110% at bottom, transparent 50%, #BFA2DB 0%);
+}
+.pp
+{
+  z-index: 20;
+  position:absolute;
+  width: 249px;
+  height: 248px;
+  left: 80px;
+  top: 80px;
+  border-radius: 50%;
+}
+.image
+{
+  all: inherit;
+}
+.name
+{
+  position: absolute;
+  z-index: 70;
+  top: 190px;
+  left: 570px;
+  font-family: 'Birthstone', cursive;
+  font-size: 50px;
+  font-style: bold;
+}
+.main
+{
+  position: absolute;
+  z-index: 70;
+  top: 300px;
+  left: 450px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 400px;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+.know
+{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 540px;
+  left: 90.5px;
+  background-color: #BFA2DB;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 30px;
+  background: rgba( 191, 162, 219, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.box
+{
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  background-color: #F0D9FF;
+  border-radius: 50px;
+  background: rgba( 240, 217, 255, 1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.box:hover
+{
+  height: 480px;
+}
+
+#detail
+{
+  z-index: 70;
+  top: 620px;
+  left: 80px;
+}
+#hobby
+{
+  z-index: 70;
+  top: 750px;
+  left: 450px;
+}
+#hobby:hover,#skill:hover
+{
+  top:620px;
+}
+#skill
+{
+  z-index: 70;
+  top: 900px;
+  left: 820px;
+}
+.dhead
+{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: -10px; 
+  left: 72px;
+  background-color: #BFA2DB;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 30px;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
